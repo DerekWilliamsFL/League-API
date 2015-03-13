@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome, Summoner</title>
+  <meta charset='UTF-8'>
+  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>
+  <title>Last Five</title>
+  <link rel='stylesheet' href='css/style.css'>
+  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+  <script src='js/index.js'></script>
+</head>
+<body>
+  <div class='container'>
+   <!-- <p>Summoner Name: <span id='sName' class='summoner'></span></p>-->
+   <input type='text' id='sumName' placeholder='Type in a Summoner name'><input type='submit' value='Find Summoner' onclick='findSummoner();' id='findSummoner'><br>
+    <p>Time played:<span id='duration' class='stats'></span></p>
+    <p>Damage dealt: <span id='dmgDealt' class='stats'></span></p>
+    <p>Damage taken: <span id='dmgTaken' class='stats'></span></p>
+    <p>Wards placed: <span id='greenWards' class='stats'></span></p>
+    <p>Vision wards: <span id='pinkWards' class='stats'></span></p>
+    <p>Kills: <span id='kills' class='stats'></span></p>
+    <p>Deaths: <span id='deaths' class='stats'></span></p>
+    <p>Gold: <span id='gold' class='stats'></span></p>
+  </div>
+
+</body>
+
+</html>

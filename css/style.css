@@ -1,0 +1,79 @@
+body {
+  /*background-color: #ECECEC;*/
+  background: url('background.jpg') no-repeat;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+}
+.container {
+ box-sizing:border-box;
+ -moz-box-sizing:border-box; /* Firefox */
+ -webkit-box-sizing:border-box; /* Safari */
+  margin: 80px auto;
+  width: 960px;
+  background-color: #67809F;
+  padding: 40px;
+     -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+  
+}
+
+.container p:hover
+{
+    transition: all .15s ease;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+p {
+  font-size: 1.1em;
+  margin: 20px auto;
+  padding-top: 15px;
+  margin-left: 10px;
+  display: inline-block;
+  height: 100px;
+  width: 428px;
+  text-align: center;
+  background: tomato;
+   -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+}
+
+span {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+input {
+  display: inline-block;
+  margin: 5px auto;
+  padding: 10px;
+  border: none;
+  margin-left: 10px;
+  border-bottom: solid 2px #c9c9c9;
+  transition: border 0.2s;
+}
+
+input[type='submit'] {
+  margin-left: -10px;
+}
+
+.style-4 input[type="text"]:focus {
+  border: solid 2px #969696;
+}
+
+.failure {
+  border: 2px solid #CF000F;
+}
+
+.success {
+  border: 2px solid #00B16A;
+}
